@@ -1,0 +1,33 @@
+{
+	// 🧰 configura o comportamento do compilado
+	"compilerOptions": {
+        // 🧪 Ambiente e recursos modernos
+		"lib": ["ESNext"],
+		"target": "ESNext",
+		"module": "Preserve",
+		"moduleDetection": "force",
+		"jsx": "react-jsx",
+		"allowJs": true,
+
+		// 📦 Modo bundler (ideal para ferramentas como Vite, Bun, esbuild)
+		"moduleResolution": "bundler",
+		"allowImportingTsExtensions": true,
+		"verbatimModuleSyntax": true,
+		"noEmit": true,
+
+		// ✅ Boas práticas e segurança de tipo
+		"strict": true,
+		"skipLibCheck": true,
+		"noFallthroughCasesInSwitch": true,
+		"noUncheckedIndexedAccess": true,
+		"noImplicitOverride": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictPropertyInitialization": true,
+
+		//🔒 Regras ainda mais rígidas (opcional, mas recomendável)		
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noPropertyAccessFromIndexSignature": true
+	}
+}
